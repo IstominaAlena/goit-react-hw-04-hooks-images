@@ -1,0 +1,48 @@
+button {
+  cursor: pointer;
+}
+
+.modal-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  color: rgb(21, 180, 243);
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  color: red;
+}
+
+.search {
+  margin-left: 30px;
+  padding: 0;
+  padding-top: 2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50%;
+  border-color: rgb(21, 180, 243);
+  background-color: #fff;
+}
+
+.load-more {
+  border-radius: 5px;
+  border-color: rgb(21, 180, 243);
+  color: rgb(21, 180, 243);
+  background-color: #fff;
+}
+
+.search:hover,
+.search:focus,
+.load-more:hover,
+.load-more:focus {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.2),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.search:active,
+.load-more:active {
+  background-color: rgb(21, 180, 243);
+}

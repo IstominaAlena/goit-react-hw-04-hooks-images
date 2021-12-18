@@ -1,0 +1,40 @@
+.formComponent {
+  display: flex;
+  align-items: baseline;
+  width: 200px;
+}
+
+/*.filterComponent {
+  width: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.formLabel {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  font-size: 20px;
+  color: #212121;
+}*/
+
+.formInput {
+  outline: none;
+  border-color: rgb(21, 180, 243);
+  border-radius: 10px 10px;
+  margin-top: 1.5px;
+  padding-left: 10px;
+
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.2),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.formInput::placeholder {
+  color: rgb(21, 180, 243);
+  font-size: 14px;
+}
