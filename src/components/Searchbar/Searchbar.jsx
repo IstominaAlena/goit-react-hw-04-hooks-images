@@ -25,10 +25,6 @@ const Searchbar = (props) => {
     }
 
     props.onSubmit(query);
-    onInputClear();
-  }
-
-  function onInputClear() {
     setQuery("");
   }
 

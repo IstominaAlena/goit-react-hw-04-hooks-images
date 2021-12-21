@@ -1,8 +1,10 @@
+import { memo } from "react";
 import PropTypes from "prop-types";
+
 import s from "./ImageGalleryItem.module.css";
 
 const ImageGalleryItem = ({ imageData, onClick }) => {
-  const item = imageData.map((item) => (
+  const items = imageData.map((item) => (
     <li
       className={s["gallery-item"]}
       key={item.id}
@@ -15,10 +17,10 @@ const ImageGalleryItem = ({ imageData, onClick }) => {
       />
     </li>
   ));
-  return item;
+  return items;
 };
 
-export default ImageGalleryItem;
+export default memo(ImageGalleryItem);
 
 ImageGalleryItem.propTypes = {
   imageData: PropTypes.arrayOf(

@@ -28,6 +28,9 @@ button {
 }
 
 .load-more {
+  margin-left: 50%;
+  transform: translateX(-50%);
+
   border-radius: 5px;
   border-color: rgb(21, 180, 243);
   color: rgb(21, 180, 243);
